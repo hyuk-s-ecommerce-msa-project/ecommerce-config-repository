@@ -7,3 +7,6 @@ token:
 
 kakao:
   secret: ${KAKAO_SECRET_KEY}
+
+gateway:
+  ip: 192.168.0.8

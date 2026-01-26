@@ -1,15 +1,13 @@
 token:
-  secret: ${TOKEN_SECRET}
+  secret: '{cipher}AYAlWdVoY3PNf2/7OnNPK/UwkPbJUFeKCqbdTM4RjhEItfxNiqqF8260ZvnCZV9nyWCKDoMxmMXMA/U+XACY897J6x2Wr89n1p3dg31EcSfpvIX0NCVH4NFWIDF2eEyxQxvOOJDT0ZSn9bhwZDCnMVUkFCfPJ3cdnvWXKiR87FHeW5g+GDuG+hnw9JegNPNZN7cnIJGG9AeDhSD84czvjxbgeLSrBxjGkMGF0kGq3rnIOFP7F7Gmz75d6bYSOc0Ik4gsuAAba32n8hqIBAEYrzD7jQwYJYUiKrtTpEh+LSgf/kzr8p1TUx6cyfvxYQeioXnTo0QFGY/1afwuiOIQhuiwC/IbDV+JKhTBaKOjF3uauluH4GLP7/1QuE9iBdnvgvvgr2hOH/d9bqg1mliUZF9OIlM7gOmqxbvP+owhIjxySj+fegMwAF3WbPm6lc1XuQ1X0JDFHGc1iAxWkyGHrmd2t0TDGD/DIJnzoOKQNRpLIY2GV4Sfe60qXdrDwVkmftxmYX0WCVJyZp6VNeenAInPybZAjetOXW1Np2Es8PdpV1UvSiJMS3qq0WPOfPi7xfTYhclRyRGbCAlpC4r8DejeiPP3k6sxxHy7d1LQ29FUZxV3PGpgTcJq8P8dwnMqMeY='
   access-token:
     expiration-time: 1800000 # 30 minutes
   refresh-token:
     expiration-time: 864000000 # 10 days
 
-kakao:
-  secret: ${KAKAO_SECRET_KEY}
-
 gateway:
   ip: 192.168.0.8
 
-steam:
-  key: ${STEAM_KEY}
+rabbitmq:
+  username: guest
+  password: '{cipher}AYANvR/Nr9sNm1W5IlS6gYvdYaZtpXmK7vXQSR/h4n+0rC/yDdSNLjzGwtz271juvQatB/gTTpgDPniih0uBREk4ac3oAUtFwC2+IodYHY3USdWTn8oFgTsVmQb4IDOV7gvf2wgGB208wjywQmitnfVbEfwgqRhHF+UpSnoGtofZMql0+AdNZWIeCVUDGXNKwUQJdpZmu41EbFjBamn5W4ixJMIr26MnQNlAWF7vcoOHgf3HYPEw2hUGvRwEE6IVZV2yHfp+6mzV9Vy2MNlLBpClSJv3x2lxjfhU2KgW8QKVzTKFV6jBYTneDRkRM2vpdJj93TS0C0ijkszfAo02JW06XW84EmNkw9hmcMZJz1b9b9KkarBf0jcfzV4ME5iBF59TSQp4Utj8ZE9iEjNTMOPQQ+UfTZGPQA1DLSnEzeFT5tYxqPM0tHqGI6QcgCGP5GHaC7RdgSCocX+HMKMqYckIRpmELqxecyj61MUClUro9T/Kx56MZU6GfnPfdwkJZqC/xXEmkrPt5wUIJGem0XbqA9gQXX77ZaqPHgpTDkPfTg=='

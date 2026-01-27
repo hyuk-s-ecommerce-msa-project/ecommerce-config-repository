@@ -4,3 +4,6 @@ spring:
     url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;
     username: sa
     password: '{cipher}AYA6S8nVD+swGNCDWyw+n7yavuMAhi03pnLHN5sFzAN9rmwo7MHN3dC+2nxINZuEoimAtna9VVSaFFvQwY1BOen0EoPz8WEpuucMg6AXxxTjdbjahlV2xaapmmzAB8fjJqf8fvYD/6Ay90FfLYYhFlrVg7CPB/9pnf9w60plWQ+AKYHbCSRJ80HNRxKbLqGh/ZJqPDdOJ8FtKUhrxDwml1jeYg3gy1HrTMV1//VPqxWWDM7gfy24nEBZ4LcQrCs5u/YuPX48/utVDTNpOA12lCk5s0U8jT6Gr609EShBQd8PYolNnAI2QU/4P+Fz6y1DD4JP8bEyKpNEZWhjMmx85jIMa2hZPN52a39ZMl8nea+osscAmxUeW0QiLpTbK/h2VdRWWvGIwi/LlBSF2FZSiYOVBDRcbjEOXVFdcVXT0fybo6N3MDOtnuFcBnpVHNDHUHW4q4OPjNEtfysu903onOcNWDjd5GVlLWJ6eu3VjNwYPWRBph1m62vQrTpsn/I0WrtkjyqtwOxLpQ0AHLuK6+R8isfUQKAOzbt+MsvIaI0wfA=='
+
+order-service:
+  url: http://order-service/orders

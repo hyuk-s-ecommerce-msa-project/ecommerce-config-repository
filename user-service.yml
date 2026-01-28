@@ -7,3 +7,6 @@ spring:
 
 order-service:
   url: http://order-service/orders
+  exception:
+    order_bad_request: 잘못된 요청입니다
+    order_not_found: 주문 내역을 찾을 수 없습니다

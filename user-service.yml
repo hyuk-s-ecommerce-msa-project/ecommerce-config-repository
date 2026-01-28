@@ -13,3 +13,6 @@ order-service:
 
 catalog-service:
   url: http://catalog-service/catalogs
+  exception:
+    catalog_bad_request: 잘못된 요청입니다
+    catalog_not_found: 해당 제품을 찾을 수 없습니다

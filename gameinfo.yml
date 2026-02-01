@@ -1,6 +1,6 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
+    driver-class-name: org.mariadb.jdbc.Driver
     url: jdbc:mariadb://localhost:3306/gameinfo
     username: hyuk
     password: '{cipher}AYAp0YCsFxpa3YtgQ8WsVTT4a90I/FciDxLKZdGAiQ2GxNp1lXpV7RGF3026KPl3qSeE1/5/UYwuIR7RC2a4f46p8Zeaihi+8XJsNtXBcFBEAkXYkxGIuJeETPkJRFeWZ2fPHAkHA0q/DCnwKacixCQN9CN/qbQyg+NvzeMdSNcV5tXh0T/L4pvyCN2bMhxgf0n8xJ/T2jOHVlJOc1T8qI8/Y7/BDcKFCxn1JttzbjBB/4ium/38ekZx8CaePrOS/31fM1WtHLU+1dNhrrGRDiQXk7H8y9SLUCd2gBBHFF4tZmLyBYxOnmHEfwxM3/QdtmY3gtm/UncdaI2A6F3aMzQx5OfEWNUxlHQkez93qz5ftZ+ve15eWsR6EBOnmOSlp5Ges0UhfUtdP045knjtw/3Bm58mP8UQlRZjGBGStvLubGIMgv+entA4NepgSJpRvD+CdzGVZOxVpKo8g9mD+gcmvjLwJ9oggOk4x8y+OvveHP9mX9T/V5EwxNfx1/EnuZHeBcPVy3BGxfwONXC/DoERLx40R0eCmT1BybFYwLRKHw=='

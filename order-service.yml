@@ -1,0 +1,10 @@
+catalog-service:
+  url: http://catalog-service/catalogs
+  exception:
+    catalog_bad_request: 잘못된 요청입니다
+    catalog_not_found: 해당 제품을 찾을 수 없습니다
+
+user-service:
+  url: http://user-service/point/increase
+  exception:
+    point_bad_request: 잘못된 포인트 형식입니다

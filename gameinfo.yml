@@ -12,7 +12,7 @@ token:
     expiration-time: 864000000 # 10 days
 
 gateway:
-  ip: 192.168.0.8
+  ip: 172.20.0.14
 
 rabbitmq:
   username: guest

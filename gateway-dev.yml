@@ -1,6 +1,9 @@
 spring:
   profiles:
     active: dev
+  config:
+    import:
+      - "optional:configserver:http://localhost:9088"
   rabbitmq:
     host: localhost
     port: 5672

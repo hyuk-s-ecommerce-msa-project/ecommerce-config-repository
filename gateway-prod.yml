@@ -1,6 +1,9 @@
 spring:
   profiles:
     active: prod
+  config:
+    import:
+      - "optional:configserver:http://config-server:9088"
   rabbitmq:
     host: rabbitmq-devops
     port: 5672

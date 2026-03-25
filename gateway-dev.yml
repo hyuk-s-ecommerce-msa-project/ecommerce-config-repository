@@ -4,8 +4,6 @@ spring:
       ignored-interfaces:
         - docker.*
         - veth.*
-  profiles:
-    active: dev
   rabbitmq:
     host: localhost
     port: 5672

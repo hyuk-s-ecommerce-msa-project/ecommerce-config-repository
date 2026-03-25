@@ -11,9 +11,6 @@ token:
   refresh-token:
     expiration-time: 864000000 # 10 days
 
-gateway:
-  ip: 172.20.0.14
-
 rabbitmq:
   username: guest
   password: '{cipher}AYANvR/Nr9sNm1W5IlS6gYvdYaZtpXmK7vXQSR/h4n+0rC/yDdSNLjzGwtz271juvQatB/gTTpgDPniih0uBREk4ac3oAUtFwC2+IodYHY3USdWTn8oFgTsVmQb4IDOV7gvf2wgGB208wjywQmitnfVbEfwgqRhHF+UpSnoGtofZMql0+AdNZWIeCVUDGXNKwUQJdpZmu41EbFjBamn5W4ixJMIr26MnQNlAWF7vcoOHgf3HYPEw2hUGvRwEE6IVZV2yHfp+6mzV9Vy2MNlLBpClSJv3x2lxjfhU2KgW8QKVzTKFV6jBYTneDRkRM2vpdJj93TS0C0ijkszfAo02JW06XW84EmNkw9hmcMZJz1b9b9KkarBf0jcfzV4ME5iBF59TSQp4Utj8ZE9iEjNTMOPQQ+UfTZGPQA1DLSnEzeFT5tYxqPM0tHqGI6QcgCGP5GHaC7RdgSCocX+HMKMqYckIRpmELqxecyj61MUClUro9T/Kx56MZU6GfnPfdwkJZqC/xXEmkrPt5wUIJGem0XbqA9gQXX77ZaqPHgpTDkPfTg=='

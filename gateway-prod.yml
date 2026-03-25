@@ -6,6 +6,7 @@ spring:
     port: 5672
 
 gateway:
+  ip: ${GATEWAY_IP:172.20.0.14}
   server:
     webflux:
       routes:

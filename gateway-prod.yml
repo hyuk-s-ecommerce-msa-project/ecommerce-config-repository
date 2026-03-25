@@ -1,6 +1,9 @@
 spring:
   profiles:
     active: prod
+  rabbitmq:
+    host: rabbitmq-devops
+    port: 5672
 
 gateway:
   server:

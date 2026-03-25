@@ -1,4 +1,9 @@
 spring:
+  cloud:
+    inetutils:
+      ignored-interfaces:
+        - docker.*
+        - veth.*
   profiles:
     active: dev
   rabbitmq:

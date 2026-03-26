@@ -9,7 +9,7 @@ spring:
   kafka:
     consumer:
       group-id: userConsumerGroup
-    bootstrap-servers: localhost:9093
+    bootstrap-servers: 127.0.0.1:9093
   rabbitmq:
     host: localhost
     port: 5672

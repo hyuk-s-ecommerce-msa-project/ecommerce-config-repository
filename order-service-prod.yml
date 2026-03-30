@@ -1,0 +1,45 @@
+spring:
+  datasource:
+    shard0:
+      url: jdbc:mariadb://10.0.0.4:3306/gameinfo_order
+    shard1:
+      url: jdbc:mariadb://10.0.0.4:3306/gameinfo_order2
+    hikari:
+      maximum-pool-size: 20
+      idle-timeout: 30000
+      max-lifetime: 180000
+      connection-timeout: 5000
+  rabbitmq:
+    host: 10.0.0.4
+    port: 5672
+  data:
+    redis:
+      host: 10.0.0.4
+      port: 6379
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+    properties:
+      hibernate:
+        use_id_generator_strategy_three_lo: false
+        format_sql: false
+        dialect: org.hibernate.dialect.MariaDBDialect
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: "http://10.0.0.4:9411/api/v2/spans"
+  endpoints:
+    web:
+      exposure:
+        include:
+          - health
+          - beans
+          - info
+          - busrefresh
+          - prometheus
+          - metrics

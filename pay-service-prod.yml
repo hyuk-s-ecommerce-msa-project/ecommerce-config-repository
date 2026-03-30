@@ -7,6 +7,11 @@ spring:
   cloud:
     config:
       name: gameinfo, kakao-service
+  kafka:
+    bootstrap-servers: 10.0.0.4:9093
+    producer:
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
   jpa:
     hibernate:
       ddl-auto: update
